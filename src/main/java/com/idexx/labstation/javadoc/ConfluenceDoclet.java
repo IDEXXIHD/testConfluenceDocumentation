@@ -18,8 +18,8 @@ import java.util.Map;
 public class ConfluenceDoclet {
 
     private static final String NEW_LINE = "\n";
-    private static final String INDENT = "    ";
-    private static final String DOUBLE_INDENT = "        ";
+    private static final String INDENT = "******** ";
+    private static final String DOUBLE_INDENT = INDENT + INDENT;
     private static String[] documentationTags = new String[]{
             "assert",
             "precondition"
