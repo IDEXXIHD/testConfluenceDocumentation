@@ -21,8 +21,14 @@ public class ConfluenceDoclet {
     private static final String INDENT = "******** ";
     private static final String DOUBLE_INDENT = INDENT + INDENT;
     private static String[] documentationTags = new String[]{
+            "date",
+            "author",
+            "purpose",
+            "description",
+            "issue",
+            "meta",
+            "precondition",
             "assert",
-            "precondition"
     };
 
     public static boolean start(RootDoc root) {
