@@ -39,11 +39,11 @@ public class ConfluenceDoclet {
     }
 
     private static Map<ClassDoc, List<MethodDoc>> findTests(ClassDoc[] classes) {
-        Map<ClassDoc, List<MethodDoc>> tests = new HashMap<ClassDoc, List<MethodDoc>>();
+        Map<ClassDoc, List<MethodDoc>> tests = new HashMap<>();
 
         for (ClassDoc clazz : classes) {
             if (isTestClass(clazz)) {
-                List<MethodDoc> methods = new ArrayList<MethodDoc>();
+                List<MethodDoc> methods = new ArrayList<>();
 
                 for (MethodDoc method : clazz.methods()) {
                     if (isTestMethod(method)) {
