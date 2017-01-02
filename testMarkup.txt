@@ -13,6 +13,37 @@
     </tbody>
 </table>
 
-<hr/>
+<ul>
+    <li>
+        <h2>com.idexx.labstation.core.util.JapaneseStringStripperTest#testEmptyString</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>date</td>
+                    <td>22.22.2016</td>
+                </tr>
+                <tr>
+                    <td>author</td>
+                    <td>Michael Samuel</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
 
-<h2>Methods</h2>
+        <li>
+            <h2>com.idexx.labstation.core.util.JapaneseStringStripperTest#testEmptyString</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>date</td>
+                        <td>22.22.2016</td>
+                    </tr>
+                    <tr>
+                        <td>author</td>
+                        <td>Michael Samuel</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+</ul>
+<hr/>
