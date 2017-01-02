@@ -1,4 +1,4 @@
-<h1>com.idexx.labstation.core.util.JapaneseStringStripperTest</h1>
+<h3>com.idexx.labstation.core.util.JapaneseStringStripperTest</h3>
 
 <table>
     <tbody>
@@ -15,15 +15,19 @@
 
 <ul>
     <li>
-        <h2>com.idexx.labstation.core.util.JapaneseStringStripperTest#testEmptyString</h2>
+        <h5>com.idexx.labstation.core.util.JapaneseStringStripperTest#testEmptyString</h5>
         <table>
             <tbody>
                 <tr>
-                    <td>date</td>
+                    <td>
+                        <strong>date</strong>
+                    </td>
                     <td>22.22.2016</td>
                 </tr>
                 <tr>
-                    <td>author</td>
+                    <td>
+                        <strong>author</strong>
+                    </td>
                     <td>Michael Samuel</td>
                 </tr>
             </tbody>
