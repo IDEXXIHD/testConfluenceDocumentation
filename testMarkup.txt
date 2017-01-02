@@ -1,10 +1,18 @@
-<h1>Heading 1</h1>
+<h1>com.idexx.labstation.core.util.JapaneseStringStripperTest</h1>
 
-<strong>strong text</strong>
+<table>
+    <tbody>
+        <tr>
+            <td>date</td>
+            <td>22.22.2016</td>
+        </tr>
+        <tr>
+            <td>author</td>
+            <td>Michael Samuel</td>
+        </tr>
+    </tbody>
+</table>
 
-<p>Paragraph 1</p>
+<hr/>
 
-<p>Paragraph 2</p>
-
-<hr />
-
+<h2>Methods</h2>
