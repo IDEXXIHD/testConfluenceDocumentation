@@ -20,13 +20,13 @@
             <tbody>
                 <tr>
                     <td>
-                        <em>date</em>
+                        <em><u>date</u></em>
                     </td>
                     <td>22.22.2016</td>
                 </tr>
                 <tr>
                     <td>
-                        <em>author</em>
+                        <em><u>author</u></em>
                     </td>
                     <td>Michael Samuel</td>
                 </tr>
