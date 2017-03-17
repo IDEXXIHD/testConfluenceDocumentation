@@ -1,53 +1,55 @@
-<h3>com.idexx.labstation.core.util.JapaneseStringStripperTest</h3>
-
-<table>
-    <tbody>
-        <tr>
-            <td>date</td>
-            <td>22.22.2016</td>
-        </tr>
-        <tr>
-            <td>author</td>
-            <td>Michael Samuel...</td>
-        </tr>
-    </tbody>
+<H1>Doclet test</H1>
+<table border='1'>
+<tbody>
+<tr><td><H2>Class:</H2></td><td><H2> DocletTest.SampleDocletAnnotatedCode</td></tr></H2>
+<tr><td>@author: </td><td>achristensen</td></tr>
+<tr><td>@date: </td><td>8/10/2016</td></tr>
+<tr><td>@purpose: </td><td>To test Crimson instrument</td></tr>
+<tr><td>@worthnoting: </td><td>Avoid modifying either the requisition_number, patient_id, patient_name, message_id or message_type elements - the req/patient info and message IDs need to be unique to avoid appending requests
+ and to identify ACKs, and the message_type is used to determine success of the request
+ If we need to run some tests against requests with messed up req IDs or message IDs, maybe this can be expanded a bit</td></tr>
 </table>
-
-<ul>
-    <li>
-        <h5>com.idexx.labstation.core.util.JapaneseStringStripperTest#testEmptyString</h5>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <em><u>date</u></em>
-                    </td>
-                    <td>22.22.2016</td>
-                </tr>
-                <tr>
-                    <td>
-                        <em><u>author</u></em>
-                    </td>
-                    <td>Michael Samuel</td>
-                </tr>
-            </tbody>
-        </table>
-    </li>
-
-        <li>
-            <h5>com.idexx.labstation.core.util.JapaneseStringStripperTest#testEmptyString</h5>
-            <table>
-                <tbody>
-                    <tr>
-                        <td><strong>date</strong></td>
-                        <td>22.22.2016</td>
-                    </tr>
-                    <tr>
-                        <td><strong>author</strong></td>
-                        <td>Michael Samuel</td>
-                    </tr>
-                </tbody>
-            </table>
-        </li>
-</ul>
-<hr/>
+</tbody>
+<table border='1'>
+<tbody>
+<tr><td><H3>Method:<H3></td><td><H3>TestPLTORouting</td><H3></tr>
+<tr><td>@assertrequirement:</td><td>That PLT should now have the value that was in PLT-O</td></tr>
+<tr><td>@todo:</td><td>Might want to test for PLT not being equal to what it was before</td></tr>
+<tr><td>@issue:</td><td>IC-4780</td></tr>
+<tr><td>@purpose:</td><td>Testing to verify that the value in PLT-O is swapped into PLT in the case of Equine (Procyte)</td></tr>
+<tr><td>@worthnoting:</td><td>This is for equine</td></tr>
+<tr><td>@worthnoting:</td><td>Catalyst Dx will return null when QcV2 is rejected and there's no QC Lot data in the db</td></tr>
+<tr><td>@throws:</td><td>Exception</td></tr>
+<tr><td>@link:</td><td>http://aws-fisheye.vet2pet.idexxi.com/cru/IVLS-629</td></tr>
+<tr><td>@coverage:</td><td>routing of PLT-O to PLT independent of whether instrument choses PLT-I or PLT-O</td></tr>
+</table>
+</tbody><br><br>
+<table border='1'>
+<tbody>
+<tr><td><H2>Class:</H2></td><td><H2> DocletTest.DoNothingSecondClass</td></tr></H2>
+<tr><td>@issue: </td><td>This is a fake class</td></tr>
+<tr><td>@purpose: </td><td>Absolutely none, except to educate.</td></tr>
+<tr><td>@author: </td><td>Santa Clauss</td></tr>
+<tr><td>@date: </td><td>a distant year in the future...</td></tr>
+</table>
+</tbody>
+<table border='1'>
+<tbody>
+<tr><td><H3>Method:<H3></td><td><H3>donothing</td><H3></tr>
+<tr><td>@issue:</td><td>NOT A REAL ISSUE</td></tr>
+<tr><td>@purpose:</td><td>A simple fake class to show that multiple classes are scanned
+ and here's some more purpose</td></tr>
+<tr><td>@worthnoting:</td><td>This isn't a real method</td></tr>
+<tr><td><H3>Method:<H3></td><td><H3>somethingelse</td><H3></tr>
+<tr><td>@todo:</td><td>nothing to do, since this is a fake class</td></tr>
+<tr><td>@todo:</td><td>Add the legacy instruments back eventually.</td></tr>
+<tr><td>@issue:</td><td>Also not an issue</td></tr>
+<tr><td>@worthnoting:</td><td>The legacy instruments were problematic in that they got stuck in BUSY states when they weren't busy.</td></tr>
+<tr><td>@param:</td><td>newInstrument</td></tr>
+<tr><td>@param:</td><td>nextResultFileName</td></tr>
+<tr><td><H3>Method:<H3></td><td><H3>defunct</td><H3></tr>
+<tr><td>@defunct:</td><td>Before fixing DE16834, this test threw
+ commenting this out... I'm not really sure what I was thinking with the cancel.  We don't allow cancelling of runs that aren at
+ the instrument from the UI.</td></tr>
+</table>
+</tbody><br><br>
