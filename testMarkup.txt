@@ -8,7 +8,7 @@
         </tr>
         <tr>
             <td>author</td>
-            <td>Michael Samuel</td>
+            <td>Michael Samuel...</td>
         </tr>
     </tbody>
 </table>
