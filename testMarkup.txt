@@ -1,4 +1,4 @@
-<H1>Doclet test</H1>
+<H1>Doclet test 2</H1>
 <table border='1'>
 <tbody>
 <tr><td><H2>Class:</H2></td><td><H2> DocletTest.SampleDocletAnnotatedCode</td></tr></H2>
