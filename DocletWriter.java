@@ -15,7 +15,7 @@ public class DocletWriter {
     private static final String FILENAME = "DocumentationOutput.html";
     private static boolean outputmethods=false;
     public static boolean start(RootDoc root) {
-        System.out.println("Start.");
+        System.out.println("Start...");
         ArrayList<String> alltags=new ArrayList<String>();
         String metaTag="meta";alltags.add(metaTag);
         String dateTag="date";alltags.add(dateTag);
@@ -126,7 +126,10 @@ public class DocletWriter {
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
             //Note: using '6' for substring is weird but the date comes from the DocClass in a fixed format: @date:M/DD/YYYY
             //This is independent of how the @date is actually formatted, so long as it's recognized
-            String jd = sdate.substring(6);
+            System.out.println("Start with date " + sdate);
+            int indy=sdate.indexOf(":")+1;
+            String jd = sdate.substring(indy);
+            System.out.println("Now with date " + jd);
             dd = sdf.parse(jd);
 
         }catch (Exception ex){ex.printStackTrace();}
