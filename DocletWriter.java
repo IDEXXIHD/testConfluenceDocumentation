@@ -127,7 +127,7 @@ public class DocletWriter {
             //Note: using '6' for substring is weird but the date comes from the DocClass in a fixed format: @date:M/DD/YYYY
             //This is independent of how the @date is actually formatted, so long as it's recognized
             System.out.println("Start with date " + sdate);
-            int indy=sdate.indexOf(":")+1;
+            int indy=sdate.lastIndexOf(":")+1;
             String jd = sdate.substring(indy);
             System.out.println("Now with date " + jd);
             dd = sdf.parse(jd);
