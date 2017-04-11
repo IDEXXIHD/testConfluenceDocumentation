@@ -155,7 +155,7 @@ public class DocletWriter {
 
         @Override
         public int compareTo(ObjectByDateContainer o) {
-                if(getDateTime().getTime()<o.getDateTime().getTime()) {return 1;}
+                if(o!=null && (getDateTime().getTime()<o.getDateTime().getTime())) {return 1;}
                 else {return -1;}
         }
     }
