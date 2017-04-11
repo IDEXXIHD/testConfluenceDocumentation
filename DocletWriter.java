@@ -138,10 +138,11 @@ public class DocletWriter {
 
     private static class ObjectByDateContainer implements Comparable<ObjectByDateContainer> {
 
-        private Date dateTime;
+        private Date dateTime=new Date();
         ClassDoc orig=null;
         public ClassDoc getClassDoc(){return orig;}
         public ObjectByDateContainer(Date date,ClassDoc original ){
+            if(date==null){date=new Date();}
             this.dateTime=date;
             orig=original;
         }
@@ -155,7 +156,7 @@ public class DocletWriter {
 
         @Override
         public int compareTo(ObjectByDateContainer o) {
-                if(o!=null && (getDateTime().getTime()<o.getDateTime().getTime())) {return 1;}
+                if( getDateTime().getTime()<o.getDateTime().getTime()) {return 1;}
                 else {return -1;}
         }
     }
